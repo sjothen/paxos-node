@@ -1,4 +1,5 @@
-paxos-node
+Paxos
 ==========
 
-Paxos in Node.js
+This is a prototype of the Paxos algorithm for distributed consensus implemented in Node. Do *NOT* use this
+in production.
