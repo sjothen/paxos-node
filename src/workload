@@ -1,0 +1,6 @@
+#!/bin/sh
+
+(sleep 5; for cmd in `cat $1`; do
+  echo $cmd
+  sleep 0.`echo "$RANDOM % 10" | bc`
+done) | ./client

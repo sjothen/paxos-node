@@ -1,0 +1,4 @@
+#!/bin/sh
+
+[ $# -ne 2 ] && echo "usage: ./server PORT NUM_ACCEPTORS" && exit
+node server.js `hostname` $1 $2
